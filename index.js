@@ -17,7 +17,7 @@ app.use("/",rutasProductos);
 app.use("/",rutasUsuariosApis);
 app.use("/",rutasProductosApis);
 
-var port=process.env.PORT || 3000;
+var port=process.env.PORT || 3020;
 app.listen(port,()=>{
     console.log("Servidor en http://localhost:"+port);
 })

@@ -5,10 +5,10 @@ var ruta=require("express").Router();
 var subirArchivo=require("../middlewares/middelewares").subirArchivo;
 
 //ruta.get("/", async (req, res) => {
-    // var users = await mostrarUsuarios();
-     //console.log(users);
-   //  res.render("usuarios/mostrar", {users});
- //})
+     //var users = await mostrarUsuarios();
+    // console.log(users);
+  //   res.render("usuarios/mostrar", {users});
+// })
 ruta.get("/",async(req,res)=>{
      res.render("usuarios/login");
 });
